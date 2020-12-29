@@ -1,0 +1,109 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    margin : 0;
+    padding : 0;
+    height: 100vh;
+}
+
+p{
+    margin : 0;
+    text-align: center;
+}
+
+.container{
+    justify-content: center;
+}
+
+.container >nav,footer{
+    display :flex;
+    justify-content: center;
+}
+    
+
+
+/* -------header-------- */
+
+header{
+    margin: 120px 0 ;
+    padding: 10px 30px;
+}
+
+.logoImg{
+    width: 50px;
+    height: 50px;
+}
+
+div[class^="header"]{
+    display: flex;
+    justify-content: center;
+}
+
+.header__Name{
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+/* -------nav------- */
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin : 0;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+nav > span{
+    margin : 0 10px;
+    padding : 0 10px;
+}
+
+span[class^="nav"]:hover{
+    cursor: pointer;
+    border-radius: 10%;
+    background: lightgrey;
+}
+
+/* -------main------- */
+/* ----sec1---- */
+.section1{
+    display: flex;
+    justify-content: center;
+}
+
+.section1>*{
+    border: 1px dashed black;
+    float: left;
+}
+
+.section1__Right .section1__Right__Imgbox{
+    padding: 0;
+    margin: 0;
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.section1__Right .section1__img {
+    height: 120px;
+    width: 110px;
+    border-radius: 50%;
+    border: 5px double lightgray;
+}
+.setion1__Left__Title{
+    margin: 5px 0;
+}
+
+hr{
+    width: 100px;
+    margin-left: 0;
+    margin-top : 0;
+}
+
+.section1 .Btn{
+    color : gray;
+    padding : 5px 20px;
+    border: 1px solid lightgray;
+}
+
+/* -------footer------- */
