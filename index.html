@@ -30,11 +30,31 @@
         <main class="main" id="main" style="background-color:aquamarine;">
             <section class="section1" id="sec1" style="background-color: gold;">
                 <div class="section1__Left">
-                    <h2 class="setion1__Left__Title">Introduce myself</h2>
+                    <h2 class="setion1__Left__Title">LEE JIN WOO</h2>
                     <hr>
-                    <p>여기는 저에 대한 정보를 쓰는 단락입니다.</p>
+                    <p id="briefInfo">안녕하세요.<br>저는 국립 경상대학교 해양과학대학 정보통신공학과를 졸업하고 프론트엔드 개발자를 준비하고 있는 이진우 입니다.</p>
+                    <table class="detailTable" id="detailTable">
+                        <tr>
+                            <td>이름</td>
+                            <td>이진우</td>
+                        </tr>
+                        <tr>
+                            <td>생년월일</td>
+                            <td>94.10.28</td>
+                        </tr>
+                        <tr>
+                            <td>출생지</td>
+                            <td>울산광역시 중구</td>
+                        </tr>
+                        <tr>
+                            <td>학력</td>
+                            <td>호계고등학교(2010~2013)<br>
+                                국립 경상대학교 정보통신공학과(2013~2020)</td>
+                        </tr>
+                    </table>
+                    </p>
                     <div class="section__Left__moreBtn">
-                        <button class="section__Left__moreBtn Btn">Lern More</button>
+                        <button class="section__Left__moreBtn Btn" id="detailBtn" type="button">Lern More</button>
                     </div>
                 </div>
                 <div class="section1__Right">
@@ -51,5 +71,6 @@
             
         </footer>
     </div>
+    <script src="./js/section1.js"></script>
 </body>
 </html>
