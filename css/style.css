@@ -192,6 +192,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .section2 > hr{
@@ -241,6 +242,16 @@ hr{
     height: 58px;
     top : 10px;
     left : 5px;
+}
+
+.section2__middle .contentText{
+    width: 8rem;
+    border-radius: 25px 25px 25px 25px;
+    background-color: navy;
+}
+
+.section2__middle .contentText > i{
+    color : gold;
 }
 
 .box3__icon > .backgroundBox-black{
