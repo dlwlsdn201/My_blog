@@ -64,6 +64,35 @@ div[class^="header"]{
     margin: 10px 0;
 }
 
+section{
+    width: 100%;
+}
+
+hr{
+    width: 100px;
+    margin-left: 0;
+    margin-top : 0;
+}
+
+button{
+    color : gray;
+    padding : 5px 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin : 5px 0;
+    outline: 0;
+    width : 110px;
+
+}
+
+button:hover{
+    box-shadow: 0 1px 16px 0 rgba(0,0,0,0.24),0 5px 100px 0 rgba(0,0,0,0.19);
+}
+
+button:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
 
 
 /* -------footer------- */
