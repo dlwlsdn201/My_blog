@@ -3,14 +3,39 @@
     flex-direction: column;
     align-items: center;
     text-align : center;
+    /* width : 100%; */
 }
 
 .section3__top> hr{
     margin : 0 auto;
 }
 
-.section__middle-icon{
-    border : 1px dashed green;
-    height : 12rem;
-    margin : 5px 10px;
+.section3__middle{
+    /* width : 100%; */
 }
+
+.section3__middle-iconContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border : 1px dashed green;
+    padding : 0 20px;
+}
+
+.section3__middle-iconContainer > .iconBox{
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex : 1;
+    border: 1px solid black;
+    width : 100px;
+    height : 200px;
+}
+
+.section3__middle-iconContainer > .iconBox > *{
+    margin : 5px 0;
+}
+
+

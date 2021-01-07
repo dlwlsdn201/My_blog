@@ -32,7 +32,7 @@ tr > :first-child{
 
 .container{
     justify-content: center;
-    width:70%;
+    width:90%;
 }
 
 .container >nav,footer{
@@ -65,7 +65,7 @@ div[class^="header"]{
 }
 
 section{
-    width: 100%;
+    padding : 93px;
 }
 
 hr{
