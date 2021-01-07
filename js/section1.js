@@ -1,5 +1,5 @@
 const DetailTable = document.querySelector("#detailTable");
-const DetailBtn = document.querySelector("#detailBtn");
+const DetailBtn = document.querySelector("#sec1Btn");
 
 var Status = false;
 
