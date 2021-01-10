@@ -65,7 +65,7 @@ div[class^="header"]{
 }
 
 section{
-    padding : 93px;
+    padding : 7%;
 }
 
 hr{
@@ -79,9 +79,11 @@ button{
     padding : 5px 15px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    margin : 5px 0;
+    margin : 5% 0;
     outline: 0;
-    width : 110px;
+    width : 8rem;
+    height : 2.5rem;
+    text-align: center;
 
 }
 
