@@ -87,10 +87,9 @@
     color : gold;
 }
 
-/* .section2 .moreBtn > button{
-    margin : 0 auto;
-    height : 28px;
-} */
+.section2 .section2__moreBtn {
+    margin-top : 5%;
+}
 
 div[class$="content"]{
     display: flex;
