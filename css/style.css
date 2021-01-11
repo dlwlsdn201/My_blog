@@ -1,9 +1,11 @@
 html,body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin : 0;
     padding : 0;
-    height: 100vh;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -30,12 +32,7 @@ tr > :first-child{
     text-align: center;
 }
 
-.container{
-    justify-content: center;
-    width:90%;
-}
-
-.container >nav,footer{
+nav,footer{
     display :flex;
     justify-content: center;
 }
@@ -45,8 +42,9 @@ tr > :first-child{
 /* -------header-------- */
 
 header{
-    margin: 120px 0 ;
-    padding: 10px 30px;
+    margin: 10% 0 ;
+    width: 100%;
+    /* padding: 10px 30px; */
 }
 
 .logoImg{

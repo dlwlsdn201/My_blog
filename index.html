@@ -9,245 +9,214 @@
     <link rel="stylesheet" href="./css/sec1.css">
     <link rel="stylesheet" href="./css/sec2.css">
     <link rel="stylesheet" href="./css/sec3.css">
+    <link rel="stylesheet" href="./css/sec4.css">
     <script src="https://kit.fontawesome.com/955489ca42.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <header class="header" id="header" style="background-color: antiquewhite;">
-            <div class="header__Logo">
-                <img src="./Images/header__logo.png" alt="mainLogo" class="logoImg">
+    <header class="header" id="header" style="background-color: antiquewhite;">
+        <div class="header__Logo">
+            <img src="./Images/header__logo.png" alt="mainLogo" class="logoImg">
+        </div>
+        <div class="header__Name">
+            이진우
+        </div>
+        <div class="header__introdution">
+            <p>여기는 '이진우'가 직접 참고 템플릿을 참고하여 클론 코딩한 페이지입니다.<br>
+                Used by CSS | HTML
+            </p>
+        </div>
+    </header>
+    <nav class="nav" id="nav" style="background-color: orange;">
+        <span class="nav__menu1">Introducion</span>
+        <span class="nav__menu2">First Section</span>
+        <span class="nav__menu3">Second Section</span>
+        <span class="nav__menu4">Get started</span>
+    </nav>
+    <main class="main" id="main" style="background-color:aquamarine;">
+        <section class="section1" id="sec1" style="background-color: gold;">
+            <div class="section1__Left">
+                <h2 class="setion1__Left__Title">LEE JIN WOO</h2>
+                <hr>
+                <p id="briefInfo">안녕하세요.<br>저는 국립 경상대학교 해양과학대학 정보통신공학과를 졸업하고 프론트엔드 개발자를 준비하고 있는 이진우 입니다.</p>
+                <table class="detailTable" id="detailTable">
+                    <tr>
+                        <td>이름</td>
+                        <td>이진우</td>
+                    </tr>
+                    <tr>
+                        <td>생년월일</td>
+                        <td>94.10.28</td>
+                    </tr>
+                    <tr>
+                        <td>출생지</td>
+                        <td>울산광역시 중구</td>
+                    </tr>
+                    <tr>
+                        <td>학력</td>
+                        <td>호계고등학교(2010~2013)<br>
+                            국립 경상대학교 정보통신공학과(2013~2020)</td>
+                    </tr>
+                </table>
+                </p>
+                <div class="section__Left__moreBtn">
+                    <button class="section__Left__moreBtn Btn" id="sec1Btn" type="button">Learn More</button>
+                </div>
             </div>
-            <div class="header__Name">
-                이진우
+            <div class="section1__Right">
+                <div class="section1__Right__Imgbox">
+                    <img src="./Images/sec1__Img.jpg" alt="admin" class="section1__img">
+                </div>
             </div>
-            <div class="header__introdution">
-                <p>여기는 '이진우'가 직접 참고 템플릿을 참고하여 클론 코딩한 페이지입니다.<br>
-                    Used by CSS | HTML
+        </section>
+        <div class="Line"></div>
+        <section class="section2" id="sec2" style="background-color:pink">
+            <div class="section2__top">
+                <h2 class="section2__top title">
+                    웹 개발 언어별 숙련도
+                </h2>
+            </div>
+            <hr>
+            <div class="section2__middle"> 
+                <div class="section2__middle box1">
+                    <div class="box1__icon icon">
+                        <i class="fab fa-html5 fa-5x"></i>
+                        <div class="backgroundBox-white"></div>
+                    </div>
+                    <div class="box1__content">
+                        <h4 class="box1__text title">
+                            HTML5
+                        </h4>
+                        <p class="box1__text contentText">
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="section2__middle box2">
+                    <div class="box2__icon icon">
+                        <i class="fab fa-css3-alt fa-5x"></i>
+                        <div class="backgroundBox-white"></div>
+                    </div>
+                    <div class="box2__content">
+                        <h4 class="box2__text title">
+                            CSS3
+                        </h4>
+                        <p class="box2__text contentText">
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="section2__middle box3">
+                    <div class="box3__icon icon">
+                        <i class="fab fa-js fa-5x">
+                        </i>
+                        <div class="backgroundBox-black"></div>
+                    </div>
+                    <div class="box3__content">
+                        <h4 class="box3__text title">
+                            JavaScript
+                        </h4>
+                        <p class="box3__text contentText">
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="fas fa-star fa-spin"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section2__moreBtn">
+                <button class="section2__middle moreBtn Btn" id="sec2Btn" type="button">Learn More</button>
+                
+            </div>
+            <div class="section2__bottom"></div>
+        </section>
+        <div class="Line"></div>
+        <section class="section3" id="sec3" style="background-color:coral">
+            <div class="section3__top">
+                <h3 class="sec3__title">Ipsum consequat</h3>
+                <hr>
+                <p class="sec3__desc">
+                    Donec imperdiet consequat consequat. Suspendisse feugiat congue
+                    posuere. Nulla massa urna, fermentum eget quam aliquet.
                 </p>
             </div>
-        </header>
-        <nav class="nav" id="nav" style="background-color: orange;">
-            <span class="nav__menu1">Introducion</span>
-            <span class="nav__menu2">First Section</span>
-            <span class="nav__menu3">Second Section</span>
-            <span class="nav__menu4">Get started</span>
-        </nav>
-        <main class="main" id="main" style="background-color:aquamarine;">
-            <section class="section1" id="sec1" style="background-color: gold;">
-                <div class="section1__Left">
-                    <h2 class="setion1__Left__Title">LEE JIN WOO</h2>
+            <div class="section3__middle">
+                <div class="section3__middle-iconContainer">
+                    <div class="iconBox">
+                        <i class="fas fa-code-branch fa-3x"></i>
+                        <h4>5,120</h4>
+                        <p>aaaaaa</p>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fas fa-folder-open fa-3x"></i>
+                        <h4>8,192</h4>
+                        <p>bbbbb</p>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fas fa-signal fa-3x"></i>
+                        <h4>2,048</h4>
+                        <p>ccccc</p>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fas fa-laptop fa-3x"></i>
+                        <h4>4,096</h4>
+                        <p>ddddd</p>
+                    </div>
+                    <div class="iconBox">
+                        <i class="fas fa-gem fa-3x"></i>
+                        <h4>1,024</h4>
+                        <p>eeeee</p>
+                    </div>
+                </div>
+                <div class="section3__middle__textContent">
+                    <span class="textContent-Left">
+                        Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar 
+                    </span>
+                    <span class="textContent-Right">
+                        faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
+                    </span>
+                </div>
+            </div>
+            <div class="section3__bottom">
+                <button class="section3__moreBtn Btn" id="sec3Btn" type="button">Learn More</button>
+            </div>
+        </section>
+        <div class="Line"></div>
+        <section class="section4" id="sec4" style="background-color:slategray">
+            <section class="section4" id="sec4" style="background-color:coral">
+                <div class="section4__top">
+                    <h3 class="sec4__title">Congue imperdiet</h3>
                     <hr>
-                    <p id="briefInfo">안녕하세요.<br>저는 국립 경상대학교 해양과학대학 정보통신공학과를 졸업하고 프론트엔드 개발자를 준비하고 있는 이진우 입니다.</p>
-                    <table class="detailTable" id="detailTable">
-                        <tr>
-                            <td>이름</td>
-                            <td>이진우</td>
-                        </tr>
-                        <tr>
-                            <td>생년월일</td>
-                            <td>94.10.28</td>
-                        </tr>
-                        <tr>
-                            <td>출생지</td>
-                            <td>울산광역시 중구</td>
-                        </tr>
-                        <tr>
-                            <td>학력</td>
-                            <td>호계고등학교(2010~2013)<br>
-                                국립 경상대학교 정보통신공학과(2013~2020)</td>
-                        </tr>
-                    </table>
-                    </p>
-                    <div class="section__Left__moreBtn">
-                        <button class="section__Left__moreBtn Btn" id="sec1Btn" type="button">Learn More</button>
-                    </div>
-                </div>
-                <div class="section1__Right">
-                    <div class="section1__Right__Imgbox">
-                        <img src="./Images/sec1__Img.jpg" alt="admin" class="section1__img">
-                    </div>
-                </div>
-            </section>
-            <div class="Line"></div>
-            <section class="section2" id="sec2" style="background-color:pink">
-                <div class="section2__top">
-                    <h2 class="section2__top title">
-                        웹 개발 언어별 숙련도
-                    </h2>
-                </div>
-                <hr>
-                <div class="section2__middle"> 
-                    <div class="section2__middle box1">
-                        <div class="box1__icon icon">
-                            <i class="fab fa-html5 fa-5x"></i>
-                            <div class="backgroundBox-white"></div>
-                        </div>
-                        <div class="box1__content">
-                            <h4 class="box1__text title">
-                                HTML5
-                            </h4>
-                            <p class="box1__text contentText">
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="section2__middle box2">
-                        <div class="box2__icon icon">
-                            <i class="fab fa-css3-alt fa-5x"></i>
-                            <div class="backgroundBox-white"></div>
-                        </div>
-                        <div class="box2__content">
-                            <h4 class="box2__text title">
-                                CSS3
-                            </h4>
-                            <p class="box2__text contentText">
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                                <i class="far fa-star"></i>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="section2__middle box3">
-                        <div class="box3__icon icon">
-                            <i class="fab fa-js fa-5x">
-                            </i>
-                            <div class="backgroundBox-black"></div>
-                        </div>
-                        <div class="box3__content">
-                            <h4 class="box3__text title">
-                                JavaScript
-                            </h4>
-                            <p class="box3__text contentText">
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="fas fa-star fa-spin"></i>
-                                <i class="far fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section2__moreBtn">
-                    <button class="section2__middle moreBtn Btn" id="sec2Btn" type="button">Learn More</button>
                     
                 </div>
-                <div class="section2__bottom"></div>
-            </section>
-            <div class="Line"></div>
-            <section class="section3" id="sec3" style="background-color:coral">
-                <div class="section3__top">
-                    <h3 class="sec3__title">Ipsum consequat</h3>
-                    <hr>
-                    <p class="sec3__desc">
-                        Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                        posuere. Nulla massa urna, fermentum eget quam aliquet.
-                    </p>
-                </div>
-                <div class="section3__middle">
-                    <div class="section3__middle-iconContainer">
-                        <div class="iconBox">
-                            <i class="fas fa-code-branch fa-3x"></i>
-                            <h4>5,120</h4>
-                            <p>aaaaaa</p>
-                        </div>
-                        <div class="iconBox">
-                            <i class="fas fa-folder-open fa-3x"></i>
-                            <h4>8,192</h4>
-                            <p>bbbbb</p>
-                        </div>
-                        <div class="iconBox">
-                            <i class="fas fa-signal fa-3x"></i>
-                            <h4>2,048</h4>
-                            <p>ccccc</p>
-                        </div>
-                        <div class="iconBox">
-                            <i class="fas fa-laptop fa-3x"></i>
-                            <h4>4,096</h4>
-                            <p>ddddd</p>
-                        </div>
-                        <div class="iconBox">
-                            <i class="fas fa-gem fa-3x"></i>
-                            <h4>1,024</h4>
-                            <p>eeeee</p>
-                        </div>
-                    </div>
-                    <div class="section3__middle__textContent">
-                        <span class="textContent-Left">
-                            Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar 
-                        </span>
-                        <span class="textContent-Right">
-                            faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
-                        </span>
-                    </div>
-                </div>
-                <div class="section3__bottom">
-                    <button class="section3__moreBtn Btn" id="sec3Btn" type="button">Learn More</button>
-                </div>
-            </section>
-            <div class="Line"></div>
-            <section class="section4" id="sec4" style="background-color:slategray">
-                <section class="section4" id="sec4" style="background-color:coral">
-                    <div class="section4__top">
-                        <h3 class="sec3__title">Ipsum consequat</h3>
-                        <hr>
+                <div class="section4__middle">
+                    <div class="section4__middle-iconContainer">
                         <p class="sec4__desc">
                             Donec imperdiet consequat consequat. Suspendisse feugiat congue
                             posuere. Nulla massa urna, fermentum eget quam aliquet.
                         </p>
                     </div>
-                    <div class="section4__middle">
-                        <div class="section3__middle-iconContainer">
-                            <div class="iconBox">
-                                <i class="fas fa-code-branch fa-3x"></i>
-                                <h4>5,120</h4>
-                                <p>aaaaaa</p>
-                            </div>
-                            <div class="iconBox">
-                                <i class="fas fa-folder-open fa-3x"></i>
-                                <h4>8,192</h4>
-                                <p>bbbbb</p>
-                            </div>
-                            <div class="iconBox">
-                                <i class="fas fa-signal fa-3x"></i>
-                                <h4>2,048</h4>
-                                <p>ccccc</p>
-                            </div>
-                            <div class="iconBox">
-                                <i class="fas fa-laptop fa-3x"></i>
-                                <h4>4,096</h4>
-                                <p>ddddd</p>
-                            </div>
-                            <div class="iconBox">
-                                <i class="fas fa-gem fa-3x"></i>
-                                <h4>1,024</h4>
-                                <p>eeeee</p>
-                            </div>
-                        </div>
-                        <div class="section4__middle__textContent">
-                            <span class="textContent-Left">
-                                Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar 
-                            </span>
-                            <span class="textContent-Right">
-                                faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.
-                            </span>
-                        </div>
-                    </div>
-                    <div class="section4__bottom">
-                        <button class="section4__moreBtn Btn" id="sec4Btn" type="button">Learn More</button>
-                    </div>
-                </section>
+                    
+                </div>
+                <div class="section4__bottom">
+                    <button class="section4__moreBtn Btn1" id="sec4Btn1" type="button">Get Started</button>
+                    <button class="section4__moreBtn Btn2" id="sec4Btn2" type="button">Learn More</button>
+                </div>
             </section>
-        </main>
-        <footer class="footer" id="footer" style="background-color:darkviolet;">
-            
-        </footer>
-    </div>
-    <script src="./js/section1.js"></script>
+        </section>
+    </main>
+    <footer class="footer" id="footer" style="background-color:darkviolet;">
+        Footer 영역
+    </footer>
+<script src="./js/section1.js"></script>
 </body>
 </html>
