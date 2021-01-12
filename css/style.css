@@ -32,36 +32,13 @@ tr > :first-child{
     text-align: center;
 }
 
-nav,footer{
+nav{
     display :flex;
     justify-content: center;
+    align-items: center;
     width:100%;
 }
     
-
-
-/* -------header-------- */
-
-header{
-    margin: 10% 0 ;
-    width: 100%;
-    /* padding: 10px 30px; */
-}
-
-.logoImg{
-    max-width: 50px;
-    height: 50px;
-}
-
-div[class^="header"]{
-    display: flex;
-    justify-content: center;
-}
-
-.header__Name{
-    font-size: 1.8em;
-    margin: 10px 0;
-}
 
 section{
     padding : 5% auto;
@@ -96,5 +73,33 @@ button:active{
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+.Line {
+    padding : 0 auto;
+    margin : 3% auto;
+    width: 100%;
+    border: 1px solid gray;
+}
+/* -------header-------- */
+
+header{
+    margin: 10% 0 ;
+    width: 100%;
+    /* padding: 10px 30px; */
+}
+
+.logoImg{
+    max-width: 50px;
+    height: 50px;
+}
+
+div[class^="header"]{
+    display: flex;
+    justify-content: center;
+}
+
+.header__Name{
+    font-size: 1.8em;
+    margin: 10px 0;
+}
 
 /* -------footer------- */

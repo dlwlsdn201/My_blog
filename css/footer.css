@@ -1,0 +1,19 @@
+footer{
+    width: 100%;
+    margin : 3% auto;
+}
+
+footer .footer__contentWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .footer__Left>p{
+    text-align: left;
+}
+
+.footer__bottom {
+    margin: 5% auto;
+}
