@@ -10,9 +10,10 @@ html,body{
 }
 
 /* 반응형 웹을 위한 필수 요소 */
-body>*{
+body{
     /* min-width: 647px;
     max-width: 1280px; */
+    background : linear-gradient(to right top,#DF7784,#615195)
 }
 
 p{
@@ -36,7 +37,7 @@ nav{
     display :flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:90%;
 }
     
 
@@ -46,12 +47,12 @@ header, main{
     align-items: center;
     flex-flow : column wrap;
     padding : 5% auto;
-    width:90%;
+    width:90vw;
 }
 
 section{
     padding : 5% auto;
-    width:90%;
+    width:90vw;
     /* height : 100%; */
 }
 

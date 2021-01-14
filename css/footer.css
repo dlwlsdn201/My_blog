@@ -45,8 +45,15 @@ footer .footer__Left>p{
     padding : 0.3em;
     border-radius: 7px;
     height: 100%;
-    width : 
+}
 
+.footer__Btn:hover{
+    box-shadow: 0 1px 16px 0 rgba(0,0,0,0.24),0 5px 100px 0 rgba(0,0,0,0.19);
+}
+
+.footer__Btn:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
 .footer__bottom {
@@ -67,3 +74,4 @@ footer .footer__Left>p{
     margin-bottom : 2%;
     font-size: 1.5em;
 }
+
