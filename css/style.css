@@ -3,7 +3,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin : 0;
+    margin : 0;             
     padding : 0;
     /* height: 100%; */
     width: 100%;
@@ -11,8 +11,8 @@ html,body{
 
 /* 반응형 웹을 위한 필수 요소 */
 body>*{
-    min-width: 647px;
-    max-width: 1280px;
+    /* min-width: 647px;
+    max-width: 1280px; */
 }
 
 p{
@@ -23,14 +23,10 @@ p{
     word-break: keep-all;
 }
 
-td,tr{
-    border: 1px solid black;
-    padding: 5px;
+table,td,th{
+    text-align: left;
 }
 
-tr > :first-child{
-    text-align: center;
-}
 
 nav{
     display :flex;
