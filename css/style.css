@@ -37,7 +37,7 @@ nav{
     display :flex;
     justify-content: center;
     align-items: center;
-    width:90%;
+    width:90vw;
 }
     
 
@@ -93,8 +93,8 @@ button:active{
 /* -------header-------- */
 
 header{
-    margin: 10% 0 ;
-    width: 100%;
+    /* margin: 10% 0 ;
+    width: 100%; */
     /* padding: 10px 30px; */
 }
 
