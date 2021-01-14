@@ -11,8 +11,8 @@ html,body{
 
 /* 반응형 웹을 위한 필수 요소 */
 body{
-    /* min-width: 647px;
-    max-width: 1280px; */
+    /* min-width: 647px; */
+    /* min-width: 1280px; */
     background : linear-gradient(to right top,#DF7784,#615195)
 }
 
@@ -21,7 +21,7 @@ p{
     text-overflow:ellipsis;
     width: 400px;
     text-align: center;
-    word-break: keep-all;
+    word-break: break-all;
 }
 
 table,td,th{
@@ -31,7 +31,6 @@ table,td,th{
 table{
     border-spacing: 1em;
 }
-
 
 nav{
     display :flex;
@@ -48,6 +47,10 @@ header, main{
     flex-flow : column wrap;
     padding : 5% auto;
     width:90vw;
+}
+
+header{
+    margin : 6em auto;
 }
 
 section{
@@ -90,17 +93,25 @@ button:active{
     width: 100%;
     border: 1px solid gray;
 }
+
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow : column nowrap;
+    width : 100vw;
+    height : 100%;
+    min-width: 1280px;
+    margin : 0 5px;
+    padding : 0 auto;
+}
 /* -------header-------- */
 
-header{
-    /* margin: 10% 0 ;
-    width: 100%; */
-    /* padding: 10px 30px; */
-}
 
 .logoImg{
-    max-width: 50px;
-    height: 50px;
+    min-width: 10vw;
+    max-width : 30vw;
+    height: 17vh;
 }
 
 div[class^="header"]{
