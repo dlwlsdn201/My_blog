@@ -41,10 +41,12 @@
 
 #detailTable{
     display: none;
-    width: 390px;
+    width: 100%;
+    border : 2px double black;
     font-size: 0.9em;
     margin: 0 auto;
 }
+
 
 
 .section1__Right{

@@ -27,6 +27,10 @@ table,td,th{
     text-align: left;
 }
 
+table{
+    border-spacing: 1em;
+}
+
 
 nav{
     display :flex;
@@ -36,9 +40,19 @@ nav{
 }
     
 
+header, main{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow : column wrap;
+    padding : 5% auto;
+    width:90%;
+}
+
 section{
     padding : 5% auto;
-    width:100%;
+    width:90%;
+    /* height : 100%; */
 }
 
 hr{
