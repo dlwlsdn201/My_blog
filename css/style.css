@@ -19,7 +19,7 @@ body{
 p{
     overflow: auto;
     text-overflow:ellipsis;
-    width: 400px;
+    width: 30em;
     text-align: center;
     word-break: keep-all;
 }
@@ -32,13 +32,6 @@ table{
     border-spacing: 1em;
 }
 
-nav{
-    display :flex;
-    justify-content: center;
-    align-items: center;
-    width:90vw;
-    
-}
     
 
 header, main{
@@ -104,7 +97,7 @@ button:active{
     justify-content: center;
     align-items: center;
     flex-flow : column nowrap;
-    width : 90em;
+    width : 64em;
     height : 100%;
     max-width : calc(100%-4em);
     margin : 0 auto;
@@ -134,7 +127,7 @@ div[class^="header"]{
 }
 .header__introdution p{
     width : 32vw;
-    line-height: 2.8em;
+    line-height: 2em;
     color :rgba(255, 255, 255, .6)
 }
 
