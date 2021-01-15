@@ -50,12 +50,13 @@ header, main{
 }
 
 header{
-    padding : 5em;
+    padding : 10em 0;
+    padding-top : 9em;
     color : white;
 }
 
 section{
-    padding : 5% auto;
+    padding : 5% 0;
     /* height : 100%; */
 }
 
@@ -103,18 +104,18 @@ button:active{
     justify-content: center;
     align-items: center;
     flex-flow : column nowrap;
-    width : 64em;
+    width : 90em;
     height : 100%;
     max-width : calc(100%-4em);
     margin : 0 auto;
-    vertical-align: baseline;
+    /* vertical-align: baseline; */
 }
 
 /* -------header-------- */
 
 
 .header__Logo{
-    width : 7.1em;
+    width : 7.5em;
 }
 
 .logoImg{
@@ -128,12 +129,12 @@ div[class^="header"]{
 }
 
 .header__Name{
-    font-size: 3em;
+    font-size: 4em;
     margin-top : 1rem;
 }
 .header__introdution p{
     width : 32vw;
-    margin-top : 0;
+    line-height: 2.8em;
     color :rgba(255, 255, 255, .6)
 }
 
