@@ -19,12 +19,11 @@ body{
 
 p{
     overflow: auto;
-    text-overflow:ellipsis;
-    width: 30em;
+    /* text-overflow:ellipsis; */
+    /* width: 30em; */
     text-align: center;
-    word-break: keep-all;
+    word-break: normal;
 }
-
 
 
 table,td,th{
@@ -36,7 +35,6 @@ table{
     text-align: left;
 }
 
-
 header, main{
     display : flex;
     justify-content: center;
@@ -47,14 +45,14 @@ header, main{
 
 main{
     box-sizing: border-box;
-    padding : 5em 3em;
+    padding : 3em 3em;
     background-color: #FFFFFF;
     color:rgb(87, 87, 87);
 }
 
 header{
-    padding : 10em 0;
-    padding-top : 9em;
+    padding-top : 5em;
+    padding-bottom : 3em;
 }
 
 section{
@@ -63,11 +61,16 @@ section{
 }
 
 header, main, section,nav{
-    width : 100%;
+    width : 95%;
+}
+
+a{
+    text-decoration: none;
+    color : black;
 }
 
 hr{
-    width : 100%;
+    width : 5em;
     margin-left: 0;
     margin-top : 0;
 }
@@ -104,7 +107,7 @@ button:active{
     padding : 0 auto;
     margin : 3% auto;
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid rgb(196, 195, 195);
 }
 
 .Wrapper{
@@ -137,13 +140,13 @@ div[class^="header"]{
 }
 
 .header__Name{
-    font-size: 4em;
+    font-size: 2em;
     margin-top : 1rem;
 }
 .header__introdution p{
-    width : 32vw;
+    width : 40vw;
     line-height: 2em;
-    font-size : 1.5em;
+    font-size : 1em;
     color :rgba(255, 255, 255, .6)
 }
 

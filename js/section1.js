@@ -5,7 +5,7 @@ var Status = false;
 
 showDetail=()=>{
     if(Status===false){
-        DetailTable.style.display= "block";
+        DetailTable.style.display= "inline-block";
         Status=true;
     }else{
         DetailTable.style.display= "none";
