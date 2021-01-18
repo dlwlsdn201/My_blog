@@ -5,15 +5,15 @@ html,body{
     align-items: center;
     margin : 0;             
     padding : 0;
+    overflow-x: hidden;
     /* height: 100%; */
-    width: 100%;
+    /* width: 100vw; */
 }
 
 /* 반응형 웹을 위한 필수 요소 */
 body{
-    /* min-width: 647px; */
-    /* min-width: 1280px; */
-    background : linear-gradient(to right top,#DF7784,#615195)
+    /* background : linear-gradient(60deg,#DF7784 0% 10%,30%,#615195 60% 100%); */
+    background : linear-gradient(50deg,#DF7784 ,12%,#615195)
 }
 
 p{
@@ -128,6 +128,7 @@ div[class^="header"]{
 .header__introdution p{
     width : 32vw;
     line-height: 2em;
+    font-size : 1.5em;
     color :rgba(255, 255, 255, .6)
 }
 
