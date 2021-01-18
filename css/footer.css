@@ -1,6 +1,7 @@
 footer{
+    display: block;
     width: 100%;
-    margin : 3% auto;
+    margin :6% auto;
 }
 
 
@@ -8,6 +9,7 @@ footer .footer__contentWrap{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding : 0 5%;
 
 }
 
@@ -15,36 +17,57 @@ footer .footer__contentWrap{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding : 0 3%;
+    padding : 0 2%;
     border : 2px solid yellow;
+    height: 20em;
+    flex-basis : 0;
+    flex-grow : 0.9;
 }
 
 .footer__Right{
     display : flex;
+    flex-basis : 0;
+    flex-grow: 0.9;
     flex-direction: column;
     align-items: flex-start;
-    padding : 0 3%;
-    height : 100%;
+    padding : 0 2%;
+    height : 20em;
     border : 2px dashed palegoldenrod;
+}
+
+.Info__Wrap { 
+    display: flex;
+    justify-content: flex-start;
+    line-height: 2.5em;
+}
+
+.InfoContent__Wrap{
+    margin-left : 8%;
+}
+
+.footer__Right > div{
+    width : 100%;
 }
 
 footer .footer__Left>p{
     text-align: left;
     margin-bottom : 8%;
+    width : 100%;
 }
 
 .footer__btnBox{
     margin-top : 5% auto;
     width : 7em;
     text-align: center;
+    vertical-align: middle;
+    
 }
 
 .footer__Btn{
     background-color: none;
     border : 1px solid black;
-    padding : 0.3em;
+    padding : 0.5em;
     border-radius: 7px;
-    height: 100%;
 }
 
 .footer__Btn:hover{
@@ -62,12 +85,13 @@ footer .footer__Left>p{
 
 .snsIconWrap{
     display: flex;
-    margin-top : 5%;
+    justify-self: flex-start;
+    margin-top : 8%;
     justify-content: flex-start;
 }
 
 .snsIconWrap * {
-    margin: 0 2%;
+    margin: 0 3%;
     border : 1px solid black;
     border-radius: 50%;
     padding : 0.5rem;
