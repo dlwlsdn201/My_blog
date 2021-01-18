@@ -46,8 +46,8 @@ header, main{
 main{
     box-sizing: border-box;
     padding : 3em 3em;
-    background-color: #FFFFFF;
-    color:rgb(87, 87, 87);
+    background-color: #fcfcfc;
+    color:rgb(126, 118, 118);
 }
 
 header{
@@ -120,6 +120,11 @@ button:active{
     max-width : calc(100%-4em);
     margin : 0 auto;
     /* vertical-align: baseline; */
+}
+
+h2[class$="title"]{
+    font-size : 1.8em;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* -------header-------- */
