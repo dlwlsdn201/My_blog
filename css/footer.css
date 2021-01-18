@@ -2,6 +2,7 @@ footer{
     display: block;
     width: 100%;
     margin :6% auto;
+    color :rgba(255, 255, 255, .8);
 }
 
 
@@ -18,7 +19,7 @@ footer .footer__contentWrap{
     flex-direction: column;
     align-items: flex-start;
     padding : 0 2%;
-    border : 2px solid yellow;
+    /* border : 2px solid yellow; */
     height: 20em;
     flex-basis : 0;
     flex-grow : 0.9;
@@ -32,7 +33,7 @@ footer .footer__contentWrap{
     align-items: flex-start;
     padding : 0 2%;
     height : 20em;
-    border : 2px dashed palegoldenrod;
+    /* border : 2px dashed palegoldenrod; */
 }
 
 .Info__Wrap { 
@@ -65,9 +66,10 @@ footer .footer__Left>p{
 
 .footer__Btn{
     background-color: none;
-    border : 1px solid black;
     padding : 0.5em;
     border-radius: 7px;
+    background-color: rgba(0,0,0,0);
+    color : #e9e9e9;
 }
 
 .footer__Btn:hover{
@@ -92,7 +94,7 @@ footer .footer__Left>p{
 
 .snsIconWrap * {
     margin: 0 3%;
-    border : 1px solid black;
+    border : 1px solid #e9e9e9;;
     border-radius: 50%;
     padding : 0.5rem;
     margin-bottom : 2%;
