@@ -10,7 +10,7 @@ footer .footer__contentWrap{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding : 0 5%;
+    padding : 0 3%;
 
 }
 
@@ -18,7 +18,7 @@ footer .footer__contentWrap{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding : 0 2%;
+    padding : 0 5%;
     /* border : 2px solid yellow; */
     height: 20em;
     flex-basis : 0;
@@ -31,7 +31,7 @@ footer .footer__contentWrap{
     flex-grow: 0.9;
     flex-direction: column;
     align-items: flex-start;
-    padding : 0 2%;
+    padding : 0 5%;
     height : 20em;
     /* border : 2px dashed palegoldenrod; */
 }
