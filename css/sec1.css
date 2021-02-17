@@ -36,7 +36,6 @@
 }
 
 #briefInfo{
-    /* text-overflow: clip; */
     word-break: keep-all;
     white-space: pre-wrap;
     margin : 3% 0;
@@ -46,7 +45,6 @@
 #detailTable{
     display: none;
     width : 28em;
-    /* border : 1px double black; */
     font-size: 0.9em;
     margin: 0 1em;
     white-space : nowrap;
@@ -55,8 +53,6 @@
 }
 
 td:nth-child(1){
-    /* border-bottom : 1px solid red; */
-    /* background-color: red; */
     font-weight: 800;
 }
 
@@ -81,13 +77,8 @@ td:nth-child(1){
 }
 
 .section1__Right .section1__img {
-    /* position: absolute; */
-    /* height: 100%; */
     width: 100%;
     border-radius: 50%;
-    /* border: 2px double black; */
-    /* border-bottom : 8px double rgb(107, 107, 107);
-    border-right : 8px double  rgb(107, 107, 107) ; */
 }
 
 
