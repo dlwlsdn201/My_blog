@@ -1,4 +1,4 @@
-# 웹템플릿 디자인 클론 코딩(Self Project #1)
+# 웹디자인 클론 코딩(Self Project #1)
   * Created by HTML5 / CSS3 / JavaScript(ES6)*
 
 ## **Preview**
